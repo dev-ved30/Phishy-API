@@ -29,50 +29,13 @@ This implementation gave us promising results. After splitting our data in a 80:
 
 We plan on making Phishy's technology as platform agnostic as possible. That's why we have deployed it as a `Rest API`. You can find more information about the API on our [Website](https://phishy-ai.herokuapp.com/) or by clicking [here](https://github.com/tanvig14/Phishy/blob/main/API.md). We plan on using the same API to develop our Chrome extension and possibly our mobile applications. 
 
-The API also allows us to keep improving our model and ensuring that everyone who uses Phishy can benefit from the enhancements without having to make any changes to their projects. However, we understand that this implementation may not be the right choice for everyone which is why our code is open source and can be used in a manner you see fit for your own projects. 
+This repo is the heroku deployment for Phishy. If you are interested in finding out more about Phishy, we recommend checking the our orignal project [here](https://github.com/tanvig14/Phishy/). 
 
 ## Privacy
 
 We believe that your data is yours only. That is why we do not collect or store any personal data or telemetry. Our logs only store the URL's passed with the API calls. Moreover, all our source code is uploaded right here for you to comb through. Our website is not embeded with any trackers or ad's and we intend on keeping it that way.
 
 If you like this approach to software development, please consider supporting us.
-
-## Using Locally
-
-If you want to contribute to Phishy, use our code for your project or just mess around with the code, you can follow the instructions below to get Phishy up and running on your computer.
-
-This guide primarily explains how you can get the API working locally. We expect this would be the most common way to ineract with Phishy's backend. If you want to use Phishy in a different way, you can check out our Project Structure in the [CONTRIBUTING.md](https://github.com/tanvig14/Phishy/blob/main/CONTRIBUTING.md) file.
-
-### 1. Setting up the virtual env and cloning the repository.
-
-Assuming you have pip, git and an appropriate version of python.
-
-Open a virtual enviroment and run:
-    
-* `pip install -r requirements.txt`
-
-
-Then, clone the repo with: `git clone https://github.com/tanvig14/Phishy.git` or use the latest stable `release`.
-
-**Note:** We are using `python 3.7.x` for testing.
-
-### 2. Adding the correct web driver for Selenium
-
-Phishy relies on `Selenium` and uses the `Chrome` web driver to extract some of the features. This means that we need to have the appropriate drivers. You can refer to `Selenium's` documentation to make sure you are doing this step correctly. You can also find the Chrome drivers [here](https://sites.google.com/a/chromium.org/chromedriver/downloads). 
-
-Once you have the appropriate driver for your operating system and web browser, you need to place the file in `src/WebSite` with the name `chromedriver`. You may need to make some changes based on the OS and browser you choose to use.
-
-**Note:** All our testing was done on MacOS Big Sur with Chrome 87
-
-### 3. Running Phisy
-
-From the repo on your computer, go to `API` and run:
-
-* `python server.py`
-
-The flask server should start up and you should be able to use the API on localhost.
-
-**Note:** This command works as is on `CMD`, and can work as is in a `Bash` environment if you have your `python3` alias set to `python`.
 
 ## Found Bugs?
 We would appreciate any support in the form of bug reports in order to provide the best possible experience. Bugs can be reported in the `Issues` tab.
