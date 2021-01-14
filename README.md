@@ -1,4 +1,6 @@
-# Phishy
+# Phishy API
+
+**Note:** The is a fork of Phishy for deployment to Heroku. The full project with the ML models, datasets and installation instructions can be found [here](https://github.com/tanvig14/Phishy/). This repo is meant for contributors or people who are looking to deploy their own forks of Phishy to Heroku. If you are confused about which project you need to fork, please feel free to reach out to us through the Issues tab [here](https://github.com/tanvig14/Phishy/issues).
 
 ![image](img/home.png)
 
@@ -35,13 +37,13 @@ This repo is the heroku deployment for Phishy. If you are interested in finding 
 
 We believe that your data is yours only. That is why we do not collect or store any personal data or telemetry. Our logs only store the URL's passed with the API calls. Moreover, all our source code is uploaded right here for you to comb through. Our website is not embeded with any trackers or ad's and we intend on keeping it that way.
 
-If you like this approach to software development, please consider supporting us.
+If you like this approach to software development, please consider supporting us through our orignal repository which you can find [here](https://github.com/tanvig14/Phishy/).
 
 ## Found Bugs?
-We would appreciate any support in the form of bug reports in order to provide the best possible experience. Bugs can be reported in the `Issues` tab.
+Please refer to the orignal repository for bug reporting. You can find it [here](https://github.com/tanvig14/Phishy/).
 
 ## Contributing
-If you like what we're doing and want to contribute to the project, please refer to [CONTRIBUTING.md](https://github.com/tanvig14/Phishy/blob/main/CONTRIBUTING.md). We are happy to accept suggestions in the Issues tab. After we've discussed the changes, we will accept pull requests on a case by case basis.
+This repo is intended for heroku deployment. If you're interested in contributing to Phishy, please check our orignal repository [here](https://github.com/tanvig14/Phishy/).
 
 ## Team
 This Project was created by:
